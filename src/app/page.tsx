@@ -4,6 +4,7 @@ import Image from "next/image";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonial from "@/components/Testimonial";
 import UpcomingWebminars from "@/components/UpcomingWebminars";
+import Instructors from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <WhyChooseUs />
       <Testimonial />
       <UpcomingWebminars />
+      <Instructors />
     </main>
   );
 }
